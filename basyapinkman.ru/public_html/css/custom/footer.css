@@ -1,0 +1,15 @@
+#footer1 {
+	background-color: #f8f8f8;
+	border-color: #dadada;
+	border-radius: 15px;
+	border-width: 1px;
+	border-style: solid;
+	margin-top: 10px;
+	padding-top: 15px;	
+}
+#footer1hr{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-top: 1px solid #c3c3c3;
+
+}

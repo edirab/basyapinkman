@@ -1,0 +1,25 @@
+{% extends "poetry/base.html" %}
+
+{% block content %}
+
+    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+    <table class="table table-bordered table-sm table-archive">
+        <tbody>
+        {% for poem1 in allPoems %}
+            <tr class="">
+                <td>
+                    <p> <a href = "{% url 'index' %}{{poem1.id}}"> {{  poem1.title }} </a>  </p>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    </div>
+
+    <div class="col-xs-12 col-sm-10 col-md-4 col-lg-4">
+        {% include 'poetry/../sidebarInfo.html' %}
+    </div>
+
+
+{% endblock content %}

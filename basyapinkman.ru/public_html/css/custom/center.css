@@ -1,0 +1,73 @@
+#pad 
+{
+      padding-top: 25px;
+      padding-bottom: 25px;
+}
+
+#author {
+		padding-bottom: 30px;
+   }
+
+.article.img 
+{
+/*	border-style: solid;
+	border-color: #fff;
+	border-width: 2 px;*/
+}
+
+.img-blockquote 
+{
+	max-width: 150px;
+}
+
+.img-index
+{
+	max-height: 200px;
+}
+
+.text-blockquote 
+{
+	font-size: 1em;
+}
+
+.img-poetry
+{
+	margin-bottom: 20px;
+}
+
+.poetry_source 
+{
+	margin-left: 40px;
+}
+.prose 
+{
+	margin-left: 30px; 
+	font-size: 1.2em
+}
+
+.embed-responsive.embed-responsive-16by9 {
+	padding-bottom: 56.25%;
+}
+ 
+.embed-responsive.embed-responsive-4by3 {
+	padding-bottom: 75%;
+}
+ 
+.embed-responsive{
+	position: relative;
+	display: block;
+	height: 0;
+	padding: 0;
+	overflow: hidden;
+	width:100%;
+}
+ 
+.embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}

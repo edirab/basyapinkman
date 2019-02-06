@@ -1,0 +1,24 @@
+{% extends "poetry/base.html" %}
+
+{% block content %}
+    {# left side - vidoes #}
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-lg-offset-1">
+
+        <h3>YouTube</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FphKjn1lNUw" frameborder="0" allowfullscreen></iframe>
+        <br/>
+        <hr>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oDeRwP9Q5Oc" frameborder="0" allowfullscreen></iframe>
+        <br/>
+        <hr>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/n_sIMXK3VbE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br/>
+        <hr>
+    </div>
+
+    {# right side - information #}
+    <div class="col-xs-12 col-sm-10 col-md-8 col-lg-4">
+        {% include 'poetry/../sidebarInfo.html' %}
+    </div>
+
+{% endblock content %}

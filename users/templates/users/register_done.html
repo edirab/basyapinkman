@@ -1,0 +1,12 @@
+{% extends "poetry/base.html" %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block content %}
+    <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12"
+        <h1>Здравствуйте, {{ new_user.first_name }}!</h1>
+    </div>
+    <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12"
+        <p>Ваша учётная щаписть успешно сохранена. Теперь вы можете <a href="{% url "login" %}">войти</a>.</p>
+    </div>
+{% endblock %}

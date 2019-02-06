@@ -1,0 +1,76 @@
+{% extends "poetry/base.html" %}
+
+<h3>Create an account</h3>
+
+{% block content %}
+    <div class="col-10>">
+
+    <p>Пожалуйста, зарегистрируйтесь, используя форму ниже:</p>
+
+        {% if error == 'Invalid Captha' %}
+            <div class="alert alert-danger col-lg-10 col-md-12 col-sm-12 col-xs-12" role="alert">
+                Неверная ReCaptcha
+            </div>
+        {% endif %}
+
+        <form action="." method="post">
+            <p><i>Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</i></p>
+            <div class="form-group row">
+                <!-- Имя пользовыателя -->
+                {{ user_form.username.errors }}
+                <label for="id_username" class="col-sm-3 col-md-3 col-lg-2 col-form-label">Имя пользователя: </label>
+                <div class="col-sm-9 col-md-9 col-lg-10">
+                    {{ user_form.username }}
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <!-- Имя пользователя -->
+                {{ user_form.first_name.errors }}
+                <label for="id_first_name" class="col-sm-3 col-md-3 col-lg-2 col-form-label">Имя:</label>
+                <div class="col-sm-9 col-md-9 col-lg-10">
+                    {{ user_form.first_name }}
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <!-- E-mail -->
+                {{ user_form.email.errors }}
+                <label for="id_email" class="col-sm-3 col-md-3 col-lg-2 col-form-label">E-mail: </label>
+                <div class="col-sm-9 col-md-9 col-lg-10">
+                    {{ user_form.email }}
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <!-- Пароль -->
+                {{ user_form.password.errors }}
+                <label for="id_password" class="col-sm-3 col-md-3 col-lg-2 col-form-label">Пароль:</label>
+                <div class="col-sm-9 col-md-9 col-lg-10">
+                    {{ user_form.password }}
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <!-- Пароль 2 -->
+                {{ user_form.password2.errors }}
+                <label for="id_password2" class="col-sm-3 col-md-3 col-lg-2 col-form-label">Повторите пароль:</label>
+                <div class="col-sm-9 col-md-9 col-lg-10">
+                    {{ user_form.password2 }}
+                </div>
+            </div>
+
+            {# Google ReCaptcha #}
+            <script src='https://www.google.com/recaptcha/api.js'></script>
+            <div class="g-recaptcha" data-sitekey="6LfjFn4UAAAAAO3TccFQUD1-g7odHiS4I3jfrart"></div>
+
+            <div class="form-group row">
+                <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary">Зарегистрироваться</button>
+                </div>
+            </div>
+            {% csrf_token %}
+
+        </form>
+    </div>
+{% endblock %}

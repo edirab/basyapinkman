@@ -1,0 +1,31 @@
+
+
+
+    {% if poem_list.has_other_pages %}
+
+
+    <img class="img-fluid lying_cat" src="/static/lying_cat.png" alt="">
+
+    <nav aria-label="Poetry pagination">
+        <ul class="pagination justify-content-center">
+                {# Стрелка налево #}
+            {% if poem_list.has_previous %}
+                <li class="page-item"><a class="page-link" href="/poetry/{{ poem_list.previous_page_number }}">&laquo</a></li>
+            {% else %}
+                <li class="page-item disabled"><a class="page-link">&laquo</a></li>
+            {% endif %}
+                {# Центральный элемент #}
+                <li class="page-item">
+                    <a class="page-link active">
+                          Страница {{ currPoem.id }} из {{ max_pages }}
+                    </a>
+                </li>
+                {# Стрелка направо #}
+            {% if poem_list.has_next %}
+                <li class="page-item"><a class="page-link" href="/poetry/{{ poem_list.next_page_number }}">&raquo</a></li>
+            {% else %}
+                <li class="page-item disabled"><a class="page-link">&raquo</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+    {% endif %}

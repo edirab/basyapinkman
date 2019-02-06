@@ -1,0 +1,10 @@
+
+{% if  breadcrumbs is not None %}
+    <ol class="breadcrumb">
+        {% for elem in breadcrumbs %}
+            {% for k, v in elem.items %}
+                <li><a href="{{ v }}">{{ k }}</a>&nbsp;|&nbsp;</li>
+            {% endfor %}
+        {% endfor %}
+    </ol>
+{% endif %}

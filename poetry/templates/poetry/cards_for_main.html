@@ -1,0 +1,31 @@
+{% block cards %}
+
+{% load static %}
+
+{# другой вариант дизайна карточек #}
+<section class="details-card">
+    <div class="container">
+        <div class="row">
+            {% for poem in latestPoems %}
+                <div class="col-md-6 col-lg-4">
+                    <div class="card-content">
+                        <div class="card-img">
+                            <a href="{{ poem.id }}">
+                                <img src = "{{ poem.image.url }}" alt = "">
+                            </a>
+                        </div>
+                        <div class="card-desc">
+                            <h3>{{ poem.title }}</h3>
+                            <p>{{ poem.text |  linebreaks | truncatechars:100 }}</p>
+                            <a href="{{ poem.id }}">Читать полностью</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+
+
+{% endblock cards %}

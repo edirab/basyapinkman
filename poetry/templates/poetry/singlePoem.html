@@ -1,0 +1,37 @@
+{% extends "poetry/base.html" %}
+
+{% block content %}
+    {# left side - image #}
+    <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3  col-lg-offset-1">
+    {% load static %}
+        <img class="img-fluid" src="{{ currPoem.image.url }}" alt="{{ currPoem.title }}">
+    </div>
+
+    {# center - Стихотворение #}
+    <div class="col-xs-12 col-sm-7 col-md-5 col-lg-4">
+        <h3> {{ currPoem.title }}</h3>
+        <p>{{ currPoem.text | linebreaks }}</p>
+    </div>
+
+    {# right side - information #}
+    <div class="col-xs-12 col-sm-10 col-md-7 col-lg-3">
+        {% include 'poetry/../sidebarInfo.html' %}
+        <div style="margin-top: 15px">
+            {% include 'poetry/../pagination.html' %}
+        </div>
+    </div>
+
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <hr>
+    </div>
+
+    {#  <div class="row justify-content-center"> #}
+    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8">
+        {% include 'poetry/comments3.html'%}
+    </div>
+
+
+
+{% endblock content %}
+
+

@@ -1,0 +1,79 @@
+{% extends "poetry/base.html" %}
+
+{% block content %}
+    {# left side - image #}
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    {% comment %}
+    Хорошая идея: можно добавить кнопку "Подсказка" и в качестве подсказки показывать Фото автора
+    {% endcomment %}
+    </div>
+
+    {# center - Стихотворение #}
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <h3> Отгадайте автора этих строк</h3>
+        {% comment %}
+        <p>
+            {{ random_poem }}
+        </p>
+        {% endcomment %}
+        <p>
+            {{ random_poem.text|linebreaksbr }}
+        </p>
+
+        <form action="" method="POST">
+            {% csrf_token %}
+
+            <div class="form-group row">
+                <label for="id_author" class="col-sm-9 col-md-9 col-lg-10 col-form-label">Ваш ответ: </label>
+            </div>
+
+            <div class="form-group row">
+                 <div class="col-sm-9 col-md-9 col-lg-10">
+                    {{ guess_form.author }}
+                 </div>
+            </div>
+
+            <div class="form-group row">
+                <input type="hidden" name = "guess_poem_id" value="{{ random_poem.id }}">
+            </div>
+
+            {% if rightAnswer == True %}
+            <div class="form-group row">
+                <div class="col-sm-9 col-md-9 col-lg-10">
+                    <div class="alert alert-info" role="alert">
+                        <strong>Правильно! </strong>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
+            {% if rightAnswer == False %}
+                <div class="form-group row">
+                    <div class="col-sm-9 col-md-9 col-lg-10">
+                        <div class="alert alert-danger" role="alert">
+                            <strong>Неверно, попробуйте ещё </strong>
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+
+            <div class="form-group row">
+                <div class="col-sm-9 col-md-9 col-lg-10">
+                    <button type="submit" class="btn btn-success">Проверить)</button>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-9 col-md-9 col-lg-10">
+                    <a href="">Далее</a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    {# right side - information #}
+    <div class="col-xs-12 col-sm-10 col-md-4 col-lg-4">
+        {% include 'poetry/../../../poetry/templates/sidebarInfo.html' %}
+    </div>
+
+{% endblock content %}
