@@ -21,12 +21,13 @@ from django.conf.urls.static import static
 from django.conf import settings
 
 urlpatterns = [
+    path('', index),
     path('admin/', admin.site.urls),
     path('poetry/', include('poetry.urls')),
     path('users/', include('users.urls')),
     path('search/', include('search.urls')),
-    path('guess', include('guess.urls')),
-    path('', index)
+    path('guess/', include('guess.urls')),
+    path('easypoem/', include('easypoem.urls')),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
