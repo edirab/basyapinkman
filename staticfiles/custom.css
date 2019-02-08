@@ -228,7 +228,12 @@ body{
 }
 
 .author-page-background{
-    background: url('/static/author-bg.gif') no-repeat center center;
+    background-image: url("/static/author-bg2.gif");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*no-repeat center center;*/
 }
 
 .lying_cat{
@@ -241,4 +246,27 @@ body{
 
 .golden_calf{
     text-align: left;
+}
+
+.golden_calf_bg{
+    background-image: url("/static/author-bg2.gif");
+    background-position: center;
+    background-repeat: repeat-y ;
+    background-size:100%;
+}
+
+.golden_calf_p{
+    text-align: justify;
+}
+
+
+.golden_calf_table {
+    width: 70%;
+
+}
+
+.golden_calf_table tr td{
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    border-collapse: collapse;
 }
