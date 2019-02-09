@@ -26,7 +26,7 @@ def currentPoem(request, poem_id):
     # currPoem = Poem.objects.get(id=poem_id)
 
     breadcrumbs = [
-                    {"Главная": ''},
+                    {"Главная": '/'},
                     {"Архив": "allpoems"},
                     {currPoem.title : currPoem.id},
             ]
@@ -79,7 +79,7 @@ def buildarchive(request):
     sideBarElems = sideBar()
 
     breadcrumbs = [
-                    {"Главная": ''},
+                    {"Главная": '/'},
                     {"Архив": "allpoems"},
             ]
 
@@ -96,7 +96,7 @@ def buildarchive(request):
 def media(requset):
     sideBarElems = sideBar()
     breadcrumbs = [
-                    {"Главная": ''},
+                    {"Главная": '/'},
                     {"Медиа": "media"},
             ]
     context = {
@@ -110,7 +110,7 @@ def about(request, aboutBasya_id):
     author = get_object_or_404(aboutBasya, id=aboutBasya_id)
 
     breadcrumbs = [
-                    {"Главная": ''},
+                    {"Главная": '/'},
                     {"О команде": ""},
                     {author.full_name: author.id},
             ]
@@ -129,7 +129,7 @@ def testView(request):
     currPoem_id = 2
     currPoem_title = "alolk"
     breadcrumbs = [
-                    {"Главная": ''},
+                    {"Главная": '/'},
                     {"Архив": "allpoems"},
                     {currPoem_title : currPoem_id},
             ]

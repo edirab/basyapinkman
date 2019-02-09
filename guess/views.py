@@ -12,7 +12,7 @@ def guess(request):
     rightAnswer = None
 
     breadcrumbs = [
-                    {"Главная": ''},
+                    {"Главная": '/'},
                     {"Угадай автора": "guess"},
             ]
 
