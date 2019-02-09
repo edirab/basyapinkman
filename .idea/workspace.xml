@@ -2,12 +2,104 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6feb387f-7e95-4d30-a63c-759d7e0368e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/127_0_0_1.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/archive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/assemble_archive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/auto/apple.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/auto/auto_archeive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/auto/crocodile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/auto/elephant.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/auto/envelope.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/auto/fragile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/auto/imlying.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/auto/impromptu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/auto/whilewego.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/css/custom/archive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/css/custom/center.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/css/custom/footer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/poetry.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/easypoem/templates/easypoem/source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/1937.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/apple.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/between.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/clash17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/crocodile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/deathannouncement.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/elephant.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/envelope.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/exclusionzone.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/feaster.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/fedupbro.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/firstwilleat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/fiveyearold.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/forgivemyfrench.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/fragile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/grunya.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/heresthebird.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/holiday.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/ieronim.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/ilove.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/imlying.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/impromptu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/innerimigration.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/kernel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/legio.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/losttime.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/maria.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/mycat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/orwellletter.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/pen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/pinkman.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/pinksun.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/poetsconfession.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/procurator.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/quarantine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/quarrel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/radio.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/sailor.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/sevastopol.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/slon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/sorbetanduniverse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/styx.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/summeriad.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/topacifists.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/tothedevilason.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/twofools.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/whilewego.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/poetry/images/wildbeastshew.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/socialButtons.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basyapinkman.ru/404_1.zip" afterPath="$PROJECT_DIR$/basyapinkman/404_1.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basyapinkman.ru/404_3.zip" afterPath="$PROJECT_DIR$/basyapinkman/404_3.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/prose/blueeyes.php" afterPath="$PROJECT_DIR$/basyapinkman/prose/blueeyes.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/prose/display.php" afterPath="$PROJECT_DIR$/basyapinkman/prose/display.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/prose/elevator.php" afterPath="$PROJECT_DIR$/basyapinkman/prose/elevator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/prose/grandma.php" afterPath="$PROJECT_DIR$/basyapinkman/prose/grandma.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/prose/human.php" afterPath="$PROJECT_DIR$/basyapinkman/prose/human.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/prose/shame.php" afterPath="$PROJECT_DIR$/basyapinkman/prose/shame.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basyapinkman.ru/public_html/prose/Новый текстовый документ.txt" afterPath="$PROJECT_DIR$/basyapinkman/prose/Новый текстовый документ.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Ильф Илья. Золотой теленок.doc" afterPath="$PROJECT_DIR$/basyapinkman/Ильф Илья. Золотой теленок.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/Thumbs.db" afterPath="$PROJECT_DIR$/media/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/img/Thumbs.db" afterPath="$PROJECT_DIR$/media/img/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poetry/images/Thumbs.db" afterPath="$PROJECT_DIR$/poetry/images/Thumbs.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poetry/templates/poetry/archive.html" afterPath="$PROJECT_DIR$/poetry/templates/poetry/archive.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poetry/templates/sidebarAdds.html" afterPath="$PROJECT_DIR$/poetry/templates/sidebarAdds.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poetry/views.py" afterPath="$PROJECT_DIR$/poetry/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search/templates/search/search_results.html" afterPath="$PROJECT_DIR$/search/templates/search/search_results.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/poetry/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="90" column="31" lean-forward="true" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
+              <caret line="90" column="31" lean-forward="false" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
               <folding>
                 <element signature="e#0#68#0" expanded="true" />
               </folding>
@@ -43,31 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidebarAdds.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sidebarAdds.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/poetry/templates/sidebarAdds.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="method.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easypoem/templates/easypoem/method.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search_results.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/search/templates/search/search_results.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,7 +149,7 @@
         <entry file="file://$PROJECT_DIR$/staticfiles/custom.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-4027">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -172,9 +244,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-470" />
-    <option name="y" value="-21" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="49" />
+    <option name="y" value="-13" />
     <option name="width" value="1321" />
     <option name="height" value="723" />
   </component>
@@ -226,11 +298,6 @@
               <item name="basyapinkman" type="b2602c69:ProjectViewProjectNode" />
               <item name="basyapinkman" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="basyapinkman" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basyapinkman" type="462c0819:PsiDirectoryNode" />
-              <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -246,11 +313,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Documents\django-apps\basyapinkman\basyapinkman" />
       <recent name="C:\Users\hp\Documents\django-apps\basyapinkman\staticfiles\socialButtons" />
       <recent name="C:\Users\hp\Documents\django-apps\basyapinkman\poetry" />
       <recent name="C:\Users\hp\Documents\django-apps\basyapinkman\poetry\templates" />
       <recent name="C:\Users\hp\Documents\django-apps\basyapinkman\staticfiles" />
-      <recent name="C:\Users\hp\Documents\django-apps\basyapinkman\media" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -304,7 +371,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="874" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="874" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -703,7 +770,7 @@
     <entry file="file://$PROJECT_DIR$/poetry/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="90" column="31" lean-forward="true" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
+          <caret line="90" column="31" lean-forward="false" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
           <folding>
             <element signature="e#0#68#0" expanded="true" />
           </folding>
@@ -718,10 +785,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/poetry/templates/sidebarAdds.html">
+    <entry file="file://$PROJECT_DIR$/staticfiles/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="-4027">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/templates/search/search_results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -729,23 +804,15 @@
     <entry file="file://$PROJECT_DIR$/easypoem/templates/easypoem/method.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+          <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/staticfiles/custom.css">
+    <entry file="file://$PROJECT_DIR$/poetry/templates/sidebarAdds.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4027">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/templates/search/search_results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
