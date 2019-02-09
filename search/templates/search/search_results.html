@@ -1,13 +1,14 @@
 {% extends 'poetry/base.html' %}
 
 {% block content %}
+
+
     <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
 
         <p>Вы искали: {{ query }} </p>
     </div>
 
-
-    <div class="col-md-8">
+    <div class="col-md-8 ">
         {% for result in results %}
         <div class="media g-mb-30 media-comment">
             <div class="search-img-div">
@@ -27,5 +28,6 @@
     {% endfor %}
 
     </div>
+
 
 {% endblock content %}

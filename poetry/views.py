@@ -3,6 +3,7 @@ from .models import Poem, Comment, sideBarInfo, aboutBasya
 from .forms import CommentForm
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.contrib.auth.models import User
+import numpy as np
 # Create your views here.
 
 
@@ -83,9 +84,11 @@ def buildarchive(request):
                     {"Архив": "allpoems"},
             ]
 
-    list_left = list()
+    part0, part1 = np.array_split(allPoems, 2)
 
     context = {
+                "part0": part0,
+                "part1": part1,
                 "allPoems": allPoems,
                 "sideBarElems": sideBarElems,
                 "breadcrumbs": breadcrumbs,
