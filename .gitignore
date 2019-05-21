@@ -1,3 +1,22 @@
 /toDo.md
+django.wsgi
+restart.txt
+wsgi-*
+
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+__pycache__/
+basyapinkman/__pycache__/
+poetry/__pycache__/
+guess/__pycache__/
+
+
 *.pyc
 *.pyo
+
+venv/
