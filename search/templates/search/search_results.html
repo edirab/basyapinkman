@@ -3,12 +3,12 @@
 {% block content %}
 
 
-    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
-
-        <p>Вы искали: {{ query }} </p>
-    </div>
 
     <div class="col-md-8 ">
+
+        <h3>Вы искали: "{{ query }}" </h3>
+        <hr/>
+
         {% for result in results %}
         <div class="media g-mb-30 media-comment">
             <div class="search-img-div">

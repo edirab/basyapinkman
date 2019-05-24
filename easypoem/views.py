@@ -6,7 +6,7 @@ def easy(request):
     sideBarElems = sideBar()
     breadcrumbs = [
                     {"Главная": '/'},
-                    {"Методика стихосложения": "easypoem"},
+                    {"Методика стихосложения": "#"},
             ]
     context = {
         "breadcrumbs": breadcrumbs,

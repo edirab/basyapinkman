@@ -28,7 +28,7 @@ GOOGLE_RECAPTCHA_SECRET_KEY = '6LfjFn4UAAAAAH2qTQhI8gttUqYX2N720YD-rgpJ'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', ]
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'basyapinkman-python-uwsgi.edirab.lclients.ru', ]
 
 
 # Application definition
