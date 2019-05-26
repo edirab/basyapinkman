@@ -3,14 +3,16 @@
 
 {% block content %}
 
-    <h3>Отправка писбьма</h3>
+    <h3>Отправка письма</h3>
 
-    <ol>
-        <ul>
-        {% for adress in context.email_list %}
-            <li>{{ adress }}</li>
-        {% endfor %}
-        </ul>
-    </ol>
+    <div>
+        <ol>
+            <ul>
+            {% for adress in email_list %}
+                <li>{{ adress }}</li>
+            {% endfor %}
+            </ul>
+        </ol>
+    </div>
 
 {% endblock content %}
