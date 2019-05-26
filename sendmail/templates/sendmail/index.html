@@ -1,0 +1,16 @@
+
+{% extends 'poetry/base.html' %}
+
+{% block content %}
+
+    <h3>Отправка писбьма</h3>
+
+    <ol>
+        <ul>
+        {% for adress in context.email_list %}
+            <li>{{ adress }}</li>
+        {% endfor %}
+        </ul>
+    </ol>
+
+{% endblock content %}

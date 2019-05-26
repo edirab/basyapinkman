@@ -28,6 +28,7 @@ urlpatterns = [
     path('search/', include('search.urls')),
     path('guess/', include('guess.urls')),
     path('easypoem/', include('easypoem.urls')),
+    path('sendmail/', include('sendmail.urls')),
 ]
 
 urlpatterns += staticfiles_urlpatterns()

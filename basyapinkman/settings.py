@@ -40,13 +40,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #'poetry.apps.PoetryConfig',
     'poetry',
     'bootstrap4',
     'users',
     'search',
     'guess',
     'easypoem',
+    'sendmail',
 ]
 
 MIDDLEWARE = [
@@ -138,3 +138,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'poetry/templates'),)
 
 LOGIN_URL = 'login'
+
+#EMAIL_HOST = ''
+#EMAIL_HOST_USER = ''
+#EMAIL_HOST_PASSWORD = ''
+#EMAIL_PORT = ''
