@@ -1,0 +1,35 @@
+
+/* Кнопка наверх */
+#back-top{
+	position:fixed;
+	bottom:10px;
+    left: 0px;
+}
+
+#back-top a{
+	width:55px;
+	display:block;
+	text-align:center;
+	font:11px/100% Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	text-decoration:none;
+	background-color: transparent;
+	-webkit-transition:1s;
+	-moz-transition:1s;
+	transition:1s;
+}
+
+/* графическая стрелка */
+#back-top span{
+	width:55px;
+	height:1600px;
+	display:block;
+	margin-bottom:7px;
+    background: url('/static/snippets/up-arrow.png') no-repeat bottom center;
+    background-size: contain;
+	-webkit-transition:1s;
+	-moz-transition:1s;
+	transition:1s;
+}
+
+#back-top a:hover span{background-color: rgba(0, 0, 206, 0.05);}

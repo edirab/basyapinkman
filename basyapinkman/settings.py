@@ -129,8 +129,20 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'staticfiles'),  # if your static files folder is named "staticfiles"
-                    )
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'staticfiles'),  # if your static files folder is named "staticfiles"
+#    os.path.join(BASE_DIR, 'static'),
+#    '/home/hosting_edirab/projects/basyapinkman-python-uwsgi/staticfiles',
+]
+# STATIC_ROOT = '/projects/basyapinkman-python-uwsgi/staticfiles'
+
+STATICFILES_FINDERS = [
+    "django.contrib.staticfiles.finders.FileSystemFinder",
+    "django.contrib.staticfiles.finders.AppDirectoriesFinder",
+]
+
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
