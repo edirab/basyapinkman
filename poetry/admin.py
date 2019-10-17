@@ -1,5 +1,5 @@
 from django.contrib import admin
-from poetry.models import Poem, Comment, sideBarInfo, aboutBasya
+from poetry.models import Poem, Comment, sideBarInfo, aboutBasya, YoutubeVideo
 
 
 class PoemAdmin(admin.ModelAdmin):
@@ -22,8 +22,10 @@ class CommentAdmin(admin.ModelAdmin):
     # inlines = [CommentInline]
     pass
 
+
 admin.site.register(Poem, PoemAdmin)
 admin.site.register(Comment, CommentAdmin)
 admin.site.register(sideBarInfo)
 admin.site.register(aboutBasya)
+admin.site.register(YoutubeVideo)
 

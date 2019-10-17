@@ -1,5 +1,5 @@
 from django.shortcuts import render, HttpResponse, get_object_or_404
-from .models import Poem, Comment, sideBarInfo, aboutBasya
+from .models import Poem, Comment, sideBarInfo, aboutBasya, YoutubeVideo
 from .forms import CommentForm
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.contrib.auth.models import User
@@ -97,6 +97,7 @@ def buildarchive(request):
 
 
 def media(requset):
+    videos = YoutubeVideo.objects.all()
     sideBarElems = sideBar()
     breadcrumbs = [
                     {"Главная": '/'},
@@ -105,6 +106,7 @@ def media(requset):
     context = {
                 "sideBarElems": sideBarElems,
                 "breadcrumbs": breadcrumbs,
+                "YoutubeLinks": videos,
                }
     return render(requset, 'poetry/media.html', context)
 
