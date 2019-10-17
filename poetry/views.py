@@ -1,8 +1,9 @@
 from django.shortcuts import render, HttpResponse, get_object_or_404
-from .models import Poem, Comment, sideBarInfo, aboutBasya
+from .models import Poem, Comment, sideBarInfo, aboutBasya, YoutubeVideo
 from .forms import CommentForm
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.contrib.auth.models import User
+import numpy as np
 # Create your views here.
 
 
@@ -26,7 +27,7 @@ def currentPoem(request, poem_id):
     # currPoem = Poem.objects.get(id=poem_id)
 
     breadcrumbs = [
-                    {"Главная": ''},
+                    {"Главная": '/'},
                     {"Архив": "allpoems"},
                     {currPoem.title : currPoem.id},
             ]
@@ -79,13 +80,15 @@ def buildarchive(request):
     sideBarElems = sideBar()
 
     breadcrumbs = [
-                    {"Главная": ''},
+                    {"Главная": '/'},
                     {"Архив": "allpoems"},
             ]
 
-    list_left = list()
+    part0, part1 = np.array_split(allPoems, 2)
 
     context = {
+                "part0": part0,
+                "part1": part1,
                 "allPoems": allPoems,
                 "sideBarElems": sideBarElems,
                 "breadcrumbs": breadcrumbs,
@@ -94,14 +97,16 @@ def buildarchive(request):
 
 
 def media(requset):
+    videos = YoutubeVideo.objects.all()
     sideBarElems = sideBar()
     breadcrumbs = [
-                    {"Главная": ''},
+                    {"Главная": '/'},
                     {"Медиа": "media"},
             ]
     context = {
                 "sideBarElems": sideBarElems,
                 "breadcrumbs": breadcrumbs,
+                "YoutubeLinks": videos,
                }
     return render(requset, 'poetry/media.html', context)
 
@@ -110,7 +115,7 @@ def about(request, aboutBasya_id):
     author = get_object_or_404(aboutBasya, id=aboutBasya_id)
 
     breadcrumbs = [
-                    {"Главная": ''},
+                    {"Главная": '/'},
                     {"О команде": ""},
                     {author.full_name: author.id},
             ]
@@ -129,7 +134,7 @@ def testView(request):
     currPoem_id = 2
     currPoem_title = "alolk"
     breadcrumbs = [
-                    {"Главная": ''},
+                    {"Главная": '/'},
                     {"Архив": "allpoems"},
                     {currPoem_title : currPoem_id},
             ]

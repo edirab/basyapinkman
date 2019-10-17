@@ -63,3 +63,19 @@ class aboutBasya(models.Model):
         string = self.full_name + ' | ' + self.text[:20]
         return string
 
+
+"""
+https://www.youtube.com/embed/FphKjn1lNUw
+https://www.youtube.com/embed/oDeRwP9Q5Oc
+https://www.youtube.com/embed/n_sIMXK3VbE
+"""
+
+
+class YoutubeVideo(models.Model):
+    link = models.CharField(max_length=512)
+    description = models.TextField(default=None)
+
+    def __str__(self):
+        string = self.link + ' | ' + self.description[:50]
+        return string
+
