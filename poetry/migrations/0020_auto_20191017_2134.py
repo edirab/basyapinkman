@@ -13,11 +13,6 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.AlterField(
-            model_name='sidebarinfo',
-            name='date_added',
-            field=models.DateTimeField(default=datetime.datetime(2019, 10, 17, 18, 34, 9, 488982, tzinfo=utc)),
-        ),
-        migrations.AlterField(
             model_name='youtubevideo',
             name='description',
             field=models.TextField(default=None),
