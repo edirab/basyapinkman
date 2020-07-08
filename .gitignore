@@ -1,4 +1,6 @@
 /toDo.md
+logs/
+
 django.wsgi
 restart.txt
 wsgi-*
@@ -11,11 +13,6 @@ wsgi-*
 .idea/jsLibraryMappings.xml
 
 __pycache__/
-basyapinkman/__pycache__/
-poetry/__pycache__/
-guess/__pycache__/
-
-
 *.pyc
 *.pyo
 
